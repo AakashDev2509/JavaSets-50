@@ -1,0 +1,19 @@
+
+public class show_greater_no {
+	public static void main(String[] args) {
+		
+//	Using If-else
+	int a=5,b=7,c=3;
+	int big;
+	if(a>b&&b>c)
+		big=a;
+	else if(b>a&&b>c)
+		big=b;
+	
+	else 
+		big=c;
+	}
+	System.out.println("bigger no" + big);
+		
+}
+
